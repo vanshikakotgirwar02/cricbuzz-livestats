@@ -1,0 +1,26 @@
+
+# Virtual environments
+venv/
+.venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Secret API credentials
+.env
+
+# Ignore local databases by default
+*.db
+*.sqlite
+*.sqlite3
+
+# Include the project database
+!data/cricbuzz.db
+
+# Testing and editor files
+.pytest_cache/
+.coverage
+.vscode/
+.DS_Store
+logs/
